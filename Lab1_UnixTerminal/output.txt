@@ -1,0 +1,36 @@
+# Simply copy and paste the output from your terminal here!
+
+-bash-4.2$ ls
+algorithms  CS5006_Lec2  desktop.ini  Links     My Pictures  $RECYCLE.BIN
+Contacts    Desktop      Downloads    My Music  My Videos
+-bash-4.2$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+-bash-4.2$ mkdir dog
+-bash-4.2$ cd
+-bash-4.2$ ls
+algorithms  CS5006_Lec2  desktop.ini  Downloads  My Music     My Videos
+Contacts    Desktop      dog          Links      My Pictures  $RECYCLE.BIN
+-bash-4.2$ cd dog
+-bash-4.2$ ls
+-bash-4.2$ cd ..
+-bash-4.2$ man
+What manual page do you want?
+-bash-4.2$ man algorithms/
+man: algorithms/: Is a directory
+No manual entry for algorithms/
+-bash-4.2$ rmdir dog
+-bash-4.2$ sort
+-bash-4.2$ cat
+-bash-4.2$ nl
+helo
+     1  helo
+cwr
+     2  cwr
+-bash-4.2$ cut
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+-bash-4.2$
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+-bash-4.2$
